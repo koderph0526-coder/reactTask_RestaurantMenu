@@ -10,9 +10,12 @@ Canvas link:
 
 1. Clean up base template(remove all not needed pre set text and jsx logic from the download ) and make it ready with needed files and export/imports! []
 2. Idea phase: check, other menu's, decides colors and layout. Figma, Excalidraw? []
-3. With design in place, copy full data set about the menu and start adding needed components and styling. []
+3. With design in place, copy full data set on the menu and start adding needed components and styling. []
+4. Check connection between the files/components! []
+5.
 
 - Add text from the assignment link to able to work offline as well!! []
+  - fix hyperlinks to the assignment text for easy read in the future! []
 
 # React + Vite
 
