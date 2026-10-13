@@ -8,11 +8,16 @@ Canvas link:
 
 ## My Notes:
 
+- Having looked closer at the menu it seems clear to me that this is not a fast food place, however the many options and mid-paced prices do not lead me to think it's a high end fine dining resturant either. Conclusion; I need a color palette that gives a "calm, mid-fancy dining with affordable prices" vibe, like a family friendly place with a mix of classy and cozy/comfortable. After a look at different menus from such resturants as well as cross referencing with fast food chains and high end fine dining menu designs, I've chosen to go with a slightly darker green than forest green (optional deep dark-red, but this could for some seem like it's too fancy while others may think it's too much of a fast food place). Still considering whether the dishes should be clearly marked cards with a brighter background or if they should stay somewhat subtle, fearing that too little breaks of the dark colors will again lead to an assumption that it's too high end.
+
+Figma idea draft link:
+"https://www.figma.com/design/VyyonHlotKYLnzGV1uOd6I/react-MenyDishes?node-id=5-67&t=MJWYCUuvCLeD0amB-0"
+
 1. Clean up base template(remove all not needed pre set text and jsx logic from the download ) and make it ready with needed files and export/imports! []
 2. Idea phase: check, other menu's, decides colors and layout. Figma, Excalidraw? []
 3. With design in place, copy full data set on the menu and start adding needed components and styling. []
 4. Check connection between the files/components! []
-5.
+5. As menu's like these are most commonly viewed by mobile users, I will do my best at running with "mobile first" css. []
 
 - Add text from the assignment link to able to work offline as well!! []
   - fix hyperlinks to the assignment text for easy read in the future! []
