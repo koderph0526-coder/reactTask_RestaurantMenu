@@ -1,0 +1,11 @@
+:root {
+  /* Colors may need adjusting */
+  --mainColor: #095c38;
+  --cardBg: #0d794b;
+  --cardOptBg: #0b663f;
+  --txtMain: #efefef;
+  --txtPrice: #ffffff;
+}
+body {
+  background-color: var(--mainColor);
+}

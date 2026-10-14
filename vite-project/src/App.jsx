@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Menu from "./components/ListMenu";
 import { menu } from "./data/menuData";
 import Dish from "./components/DishLogic";
 import "./App.css";
@@ -12,7 +13,6 @@ function App() {
     <>
       {/*  */}
       <Dish menu={menu} />
-      {/* Read on themeContext(is for css more specifically) aka useContext-> next subject? yes */}
     </>
   );
 }
