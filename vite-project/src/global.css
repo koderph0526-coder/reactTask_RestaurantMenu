@@ -7,6 +7,8 @@
   --txtPrice: #ffffff;
 }
 body {
+  display: flex;
+  flex-direction: column;
   background-color: var(--mainColor);
   font-family:
     "Helvetica Neue",
@@ -18,4 +20,15 @@ body {
     sans-serif;
   font-weight: 100;
   font-style: oblique;
+}
+
+@media (min-width: 1024px) {
+  body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  main > .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }

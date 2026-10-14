@@ -1,4 +1,4 @@
-// Full menu data stored in a variable
+// Full menu data stored in a variable and exported
 
 export const menu = [
   {
