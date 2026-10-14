@@ -8,4 +8,14 @@
 }
 body {
   background-color: var(--mainColor);
+  font-family:
+    "Helvetica Neue",
+    monospace,
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    "Open Sans",
+    sans-serif;
+  font-weight: 100;
+  font-style: oblique;
 }

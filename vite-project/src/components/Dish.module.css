@@ -1,0 +1,10 @@
+.card {
+  background-color: var(--cardBg);
+  width: 90%;
+  color: white;
+}
+
+.spacing {
+  margin: 0 auto;
+  padding: 0.3rem;
+}

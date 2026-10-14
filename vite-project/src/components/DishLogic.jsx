@@ -2,6 +2,7 @@
 // recieving props from menuData and rendering them(exporting them to the next file that will utilize them).
 // The prop keys we're fethcing are: title, price
 // Bruk i app.js
+import styles from "./Dish.module.css";
 
 export default function Dish({ title, ingredients, price }) {
   {
@@ -9,10 +10,10 @@ export default function Dish({ title, ingredients, price }) {
   }
   return (
     <>
-      <div style={{ backgroundColor: "forestgreen" }}>
-        {" "}
+      <div className="`${styles.card} ${styles.spacing}`">
+        {/* {" "} */}
         {/*adding some temp style to be able to see if I connect it properly*/}
-        <h1>{title}</h1>
+        <h2>{title}</h2>
         <p>{ingredients}</p>
         <p>{price}</p>
       </div>
