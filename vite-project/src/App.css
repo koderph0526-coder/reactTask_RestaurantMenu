@@ -7,10 +7,12 @@
 }
 
 @media (min-width: 1020px) {
-  h1 {
+  /* h1 {
+    text-align: center;
+    margin: 0 auto;
     display: inline-block;
-    width: 100%;
-  }
+    width: 60;
+  } */
   .grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);

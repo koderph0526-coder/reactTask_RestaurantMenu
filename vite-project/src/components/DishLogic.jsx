@@ -15,7 +15,7 @@ export default function Dish({ title, ingredients, price }) {
         {/*adding some temp style to be able to see if I connect it properly*/}
         <h2>{title}</h2>
         <p>{ingredients}</p>
-        <p>{price}</p>
+        <p className="price">{price}</p>
       </div>
     </>
   );

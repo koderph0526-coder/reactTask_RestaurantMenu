@@ -37,6 +37,7 @@ Figma idea draft link:
 
 9. Read the assignment text again to make certain I didn't miss anything! []
 10. clean up comments and if needed css! []
+11. Still needs Css adjustment! for tablet. []
 
 ---
 

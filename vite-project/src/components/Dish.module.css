@@ -6,10 +6,12 @@
   color: white; /*testing here to keep an eye on changes, move to global when done*/
   padding: 0.3rem;
   margin: 0.7rem;
+  box-shadow: 3px 3px 5px rgb(0, 36, 0);
 }
 
 .card > h2,
 p {
+  font-weight: 100;
   margin-left: 10px;
   padding: 0;
 }
