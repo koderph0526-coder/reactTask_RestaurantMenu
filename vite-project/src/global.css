@@ -15,20 +15,21 @@ body {
   color: #e5f6e5; /* different color to check for */
 }
 
-div #root {
+#root {
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
   /* text-align: center;*/
 }
 
 @media (min-width: 1020px) {
-  #root body {
+  /* #root {
     width: 80vw;
-  }
-  /* .grid {
+  } */
+  .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  } */
+  }
   /* body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
