@@ -10,7 +10,7 @@ export default function Dish({ title, ingredients, price }) {
   }
   return (
     <>
-      <div className="`${styles.card} ${styles.spacing}`">
+      <div className={styles.card}>
         {/* {" "} */}
         {/*adding some temp style to be able to see if I connect it properly*/}
         <h2>{title}</h2>

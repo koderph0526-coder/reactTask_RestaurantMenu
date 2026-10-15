@@ -7,28 +7,34 @@
   --txtPrice: #ffffff;
 }
 body {
-  display: flex;
-  flex-direction: column;
   background-color: var(--mainColor);
   font-family:
-    "Helvetica Neue",
-    monospace,
-    system-ui,
-    -apple-system,
-    "Segoe UI",
-    "Open Sans",
-    sans-serif;
-  font-weight: 100;
+    "Helvetica Neue", monospace, system-ui, "Segoe UI", "Open Sans", sans-serif;
+  font-weight: thin;
   font-style: oblique;
+  color: #e5f6e5; /* different color to check for */
 }
 
-@media (min-width: 1024px) {
-  body {
+div #root {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center;*/
+}
+
+@media (min-width: 1020px) {
+  #root body {
+    width: 80vw;
+  }
+  /* .grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
-  main > .card {
+  } */
+  /* body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
+
+  /* .main > .card {
+    margin: 2rem;
+  } */
 }

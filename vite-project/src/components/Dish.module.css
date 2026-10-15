@@ -1,10 +1,21 @@
 .card {
   background-color: var(--cardBg);
   width: 90%;
-  color: white;
+  border: 2px solid rgb(16, 58, 16);
+  border-radius: 20px;
+  color: white; /*testing here to keep an eye on changes, move to global when done*/
+  padding: 0.3rem;
+  margin: 0.7rem;
 }
 
-.spacing {
-  margin: 0 auto;
-  padding: 0.3rem;
+.card > h2,
+p {
+  margin-left: 10px;
+  padding: 0;
 }
+
+/* .spacing {
+  display: flex;
+  margin: 60%;
+  padding: 0.5rem;
+} */
