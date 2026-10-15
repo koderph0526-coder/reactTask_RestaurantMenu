@@ -21,8 +21,11 @@ Figma idea draft link:
 
 - Keep checking connection as I go! []
 
-5. As menu's like these are most commonly viewed by mobile users, I will do my best at running with "mobile first" css. []
-6. Add and adjust Css to fit my design. []
+5. As menu's like these are most commonly viewed by mobile users, I will do my best at running with "mobile first" css. [x]
+
+- need improvement, but proof of concept is in place..
+
+6. Add and adjust Css to fit my design. [] --> Not fully there yet, fix border and price placement, plus shadows for the card(add hover?)
 7. Find a suitable font option, as the one I want will need to be imported. []
 
 - Import the actual font later and fix this! []
