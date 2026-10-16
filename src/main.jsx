@@ -6,5 +6,6 @@ import App from "./App.jsx";
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <App />
+    {/* Rendering App.jsx and passing it on to html (?) */}
   </StrictMode>,
 );

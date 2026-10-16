@@ -19,16 +19,16 @@ Figma idea draft link:
 3. With design in place, copy full data set on the menu and start adding needed components and styling. [x]
 4. Check connection between the files/components! [X]
 
-- Keep checking connection as I go! []
+- Keep checking connection as I go! [x]
 
 5. As menu's like these are most commonly viewed by mobile users, I will do my best at running with "mobile first" css. [x]
 
-- need improvement, but proof of concept is in place..
+- needs improvement, but proof of concept is in place..
 
-6. Add and adjust Css to fit my design. [] --> Not fully there yet, fix border and price placement, plus shadows for the card(add hover?)
-7. Find a suitable font option, as the one I want will need to be imported. []
+6. Add and adjust Css to fit my design.(Almost there) [x] --> Not fully there yet, fix border and price placement, plus shadows for the card(add hover?) [x]
+7. Find a suitable font option, as the one I want will need to be imported. [x]
 
-- Import the actual font later and fix this! []
+- Import the actual font later and fix this! [x]
 
 8. Get css modules connected correctly! []
 
@@ -36,8 +36,10 @@ Figma idea draft link:
   - fix hyperlinks to the assignment text for easy read in the future! [x]
 
 9. Read the assignment text again to make certain I didn't miss anything! []
-10. clean up comments and if needed css! []
+10. Clean up comments(add comments where needed too!) and if needed css! []
 11. Still needs Css adjustment! for tablet. []
+12. this so far looks hella boring; add picture to tablet view and desktop view. []
+13. Make a better file system for css and module css -> split it into css that is fitting to the file it's styling. []
 
 ---
 

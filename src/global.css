@@ -1,3 +1,7 @@
+/* Fetching desired font  */
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders:opsz,wght@10..72,100..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+/* Color map */
 :root {
   /* Colors may need adjusting */
   --mainColor: #095c38;
@@ -6,35 +10,37 @@
   --txtMain: #efefef;
   --txtPrice: #ffffff;
 }
+/* utility styling for all child-tags in body */
 body {
   background-color: var(--mainColor);
   font-family:
-    "Helvetica Neue", monospace, system-ui, "Segoe UI", "Open Sans", sans-serif;
-  font-weight: thin;
-  font-style: oblique;
-  color: #e5f6e5; /* different color to check for */
+    "Aboreto", "Helvetica Neue", monospace, system-ui, "Segoe UI", "Open Sans",
+    sans-serif;
+  font-style: normal;
+  /* color: #e5f6e5; different color to check for */
+  color: var(--txtMain);
 }
 
+/* adjusting the headline */
 h1 {
+  width: 65vw;
+  text-align: center;
+  margin: 15px auto;
   font-size: 45px;
   font-weight: 50;
+  border-bottom: 1px solid white;
 }
 
+/* adjusting the dish titles */
 h2 {
   /* text-decoration: underline; */
   text-decoration-line: underline;
-}
-
-.price {
-  text-align: right;
-  padding-right: 10px;
 }
 
 #root {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
-  /* text-align: center;*/
 }
 
 /* add media query for tablet as well! */
@@ -47,7 +53,6 @@ h2 {
 
   h1 {
     width: 60vw;
-    text-align: center;
     text-align: center;
     margin: 0 auto;
     font-size: 70px;

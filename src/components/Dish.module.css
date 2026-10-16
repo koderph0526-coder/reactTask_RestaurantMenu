@@ -1,23 +1,54 @@
 .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   background-color: var(--cardBg);
-  width: 90%;
+  width: 92%;
+  height: 12em;
   border: 2px solid rgb(16, 58, 16);
   border-radius: 20px;
-  color: white; /*testing here to keep an eye on changes, move to global when done*/
-  padding: 0.3rem;
-  margin: 0.7rem;
+  padding: 0.2em 0.4em;
   box-shadow: 3px 3px 5px rgb(0, 36, 0);
+  row-gap: 1rem;
+  align-items: center;
+
+  /* position adjustment for pricee to be where I want it */
+  position: relative;
 }
 
-.card > h2,
-p {
-  font-weight: 100;
+.titleDish {
+  font-weight: 300;
   margin-left: 10px;
-  padding: 0;
+  padding-left: 5px;
+  gap: 8px;
 }
 
-/* .spacing {
+.card > p {
+  /* fic class name for p tags!! */
+  padding-left: 10px;
+  /* width: 70%; */
+  height: 3rem;
+}
+
+.price {
+  text-align: right;
+  padding-right: 20px;
+  color: var(--txtPrice);
+  font-weight: bold;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.itemTxt {
   display: flex;
-  margin: 60%;
-  padding: 0.5rem;
-} */
+  flex-direction: column;
+  width: 70%;
+}
+
+.imgMenu {
+  width: 25%;
+}
+
+/* Find the margin if there is one affecting the text rows and fix it, or adjust row-gap! */
