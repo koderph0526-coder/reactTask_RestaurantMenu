@@ -32,13 +32,13 @@ Figma idea draft link:
 
 8. Get css modules connected correctly! []
 
-- Add text from the assignment link to able to work offline as well!! []
+- Add text from the assignment link to able to work offline as well!! [x]
   - fix hyperlinks to the assignment text for easy read in the future! [x]
 
 9. Read the assignment text again to make certain I didn't miss anything! []
 10. Clean up comments(add comments where needed too!) and if needed css! []
 11. Still needs Css adjustment! for tablet. []
-12. this so far looks hella boring; add picture to tablet view and desktop view. []
+12. this so far looks hella boring; add picture to tablet view and desktop view. [] -> needs further adjusting!
 13. Make a better file system for css and module css -> split it into css that is fitting to the file it's styling. []
 
 ---
